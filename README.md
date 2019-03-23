@@ -138,7 +138,7 @@ public class GamePartialStartup : IPartialStartup
     }
 ```
 
-With this interface we can "tell" to every layer to register itself their dependencies, for example if I create a WebApi project and I need to use FiresControlApp.Game services, I just need to call the RegisterPartial<GamePartialStartup>() in the RegisterPartials() abstract method and the required services will be inyected to the IServiceCollection.
+With this interface we can "tell" to every layer to register itself their dependencies, for example if I create a WebApi project and I need to use FiresControlApp.Game services, I just need to call the RegisterPartial< GamePartialStartup >() in the RegisterPartials() abstract method and the required services will be inyected to the IServiceCollection.
 
 The class GameService contains the application main functionallity
 ```csharp
@@ -267,9 +267,9 @@ The class GameService contains the application main functionallity
     }
 ```
 
-No complex logic or algorithm has been used during the develop of this class or the application and coding rules from "Code Clean" has been used to facilitate understanding and readability of the code. The absence of comments is explain in "Clean Code" book but I think it's not but idea to mention it: if you have to comment a method it's because the method name is wrong or the method do more things than it should do, so you have to split it in multiple methods.
+No complex logic or algorithm has been used during the develop of this class or the application. Coding rules from "Clean Code" has been used to facilitate the understanding and readability of the code. The absence of comments is explain in "Clean Code" book but I think it's not a bad idea to mention it: if you have to comment a method is because the method name is wrong or the method do more things than it should do, so you have to split it in multiple methods.
 
-Just to mention, with this implementation, each exception is considered as critical, so it throws exception and finish the execution. This could've been done in a different way, but I think this is more proper to avoid complexity.
+Just mention, with this implementation, each exception is considered as critical, so it throws a exception and finish the execution. This could've been done in a different way, but I think this is more proper to avoid complexity.
 
 Testing Project is just added for show knoledge in this area and testing patterns but it's not really important, in fact, I think integration test are useless in this application so I decide don't include it.
 
