@@ -10,8 +10,8 @@ using System.Text;
 namespace FiresControlApp.Core.Bootstrap
 {
     /// <summary>
-    /// Contains the main bootstrap operations such as dependency injection registrations,
-    /// appsettings configurations and logging.
+    /// Contains the main bootstrap operations such as dependency injection registrations
+    /// and logging.
     /// </summary>
     public abstract class Startup
     {
@@ -51,7 +51,7 @@ namespace FiresControlApp.Core.Bootstrap
         #region Private Methods
 
         /// <summary>
-        /// Registers core dependencies and configurations.
+        /// Registers core dependencies.
         /// </summary>
         private void RegisterCore()
         {

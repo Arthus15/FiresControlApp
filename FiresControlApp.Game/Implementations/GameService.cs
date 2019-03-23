@@ -70,6 +70,8 @@ namespace FiresControlApp.Game.Implementations
         /// <param name="dimension">(width,high)</param>
         private void SetForestDimensions(string[] instruction)
         {
+            if (_forest == null) throw new GameException("Forest can't be resize.");
+
             int width;
             int high;
 
