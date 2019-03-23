@@ -281,7 +281,8 @@ For run the application we should use Visual Studio 2019 (maybe VS2017 or VSCode
 * Set as start project "FiresControlApp.WindowsService" and press Start.
 * Copy the file path (e.g "C:\user\Desktop\Instrucciones.txt") and pasted on the Windows Console (right click) and press enter.
 
-Also you can check the 
+Example Result: 
+![](FiresControlAppResult.png)
 
 ### 4. Conclusion
 I know this approach it's not the most efficient, creative or complex but I tried to show as much programming knoledge as I can trying to use differents collections, classes, types, etc. Probably not my best development, specially with the duplicate Forest/CardinalPoints property in GameService and Dron wich is not according with DRY pattern, in fact KISS principle is followed in each line code of the app.
