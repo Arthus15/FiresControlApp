@@ -284,6 +284,14 @@ For run the application we should use Visual Studio 2019 (maybe VS2017 or VSCode
 Example Result: 
 ![](FiresControlAppResult.png)
 
+If we want to see the test results and the Code Coverage:
+* Open Test Explorer
+* Right click and press on "Analyze Code Coverage on Selected Test"
+* After execution you will see the following window.
+
+Code Coverage Result:
+![](CodeCoverage.png)
+
 ### 4. Conclusion
 I know this approach it's not the most efficient, creative or complex but I tried to show as much programming knoledge as I can trying to use differents collections, classes, types, etc. Probably not my best development, specially with the duplicate Forest/CardinalPoints property in GameService and Dron wich is not according with DRY pattern, in fact KISS principle is followed in each line code of the app.
 
